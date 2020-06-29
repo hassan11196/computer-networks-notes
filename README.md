@@ -58,7 +58,7 @@ A **protocol** defines the format and the order of messages exchanged between tw
   - A &3^(rd)& party can create an **Internet Exchange Point (IXP)**, which is a meeting point where multiple ISPs can peer together.
 
 - 1.4.1 Overview of Delay in Packet-Switched Networks
-  - <img src="@attachment/Clipboard_2020-06-28-20-56-31.png" width="400">
+  - <img src="attachments/Clipboard_2020-06-28-20-56-31.png" width="400">
   - &d_(nodal)=d_(proc)+d_(queue)+d_(trans)+d_("prop")&
   - The time required to examine the packet’s header and determine where to direct the packet is part of the **processing delay**. 
   - At the queue, the packet experiences a **queuing delay** as it waits to be transmitted onto the link.
@@ -78,12 +78,12 @@ A **protocol** defines the format and the order of messages exchanged between tw
 - 1.4.4 Throughput in Computer Networks
   - The **instantaneous throughput** at any instant of time is the rate (in bits/sec) at which Host &B& is receiving the file.
   - If the file consists of &F& bits and the transfer takes &T& seconds for Host &B& to receive all &F& bits, then the average throughput of the file transfer is &F/T& bits/sec.
-  - <img src="@attachment/Clipboard_2020-06-28-21-20-47.png" width="400">
+  - <img src="attachments/Clipboard_2020-06-28-21-20-47.png" width="400">
 
   - Throughput for a file transfer from server to client is &min{R_1, R_2, ..., R_N}&, which is once again the transmission rate of the bottleneck link along the path between server and client.
 
 - 1.5.1 Layered Architecture
-  - <img src="@attachment/Clipboard_2020-06-28-21-23-33.png" width="400">
+  - <img src="attachments/Clipboard_2020-06-28-21-23-33.png" width="400">
   - Application Layer: 
     - We’ll refer to this packet of information at the application layer as a **message**.
     Examples includes HTTP, SMTP, FTP, etc
